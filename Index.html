@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center">Profile</h1>
+    <!--username & location-->
+    <div class="row">
+        <div class="column" >
+            <img src="Imgs/1.png" src="" alt="Profile image" width="100">
+        </div>
+        <div class="column" >
+            <h3>Linh Ahmed</h3>
+            <h3>Alexandria</h3>
+        </div>
+        <div class="column" >
+            <input type="button" onclick="location.href = 'Edit.html';" value="Edit" target="_blank">
+            <br>
+            <br>
+        </div>
+    </div>
+    <!--Contact me Section-->
+    <form class="contact me" style="width:280px;height:130px;border:1px solid #000;">
+        <pre> Contact Me</pre>
+        <pre>   <input type="text" name="message" maxlength="50" height="200"><br> </pre>
+        <pre>                          <input type="button" onclick="alert('Sent!')" value="Send"> </pre>
+    </form>  
+    <br>
+    <hr>
+    <!--Info about me-->
+    <div class="row">
+        <div class="column">
+            <h2>About me</h2>
+        <div class="column">
+            <ul>
+                <li style="list-style-image: url('Imgs/2.png');" ><a href = "https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li style="list-style-image: url('Imgs/3.png');"><a href = "https://twitter.com" target="_blank">Twitter</a></li>
+                <li style="list-style-image: url('Imgs/4.png');">Mobile</li>
+             </ul>
+        </div>
+    </div>
+    <hr>
+    <!--Skills table-->
+    <div class="row">
+        <div class="column">
+            <h2>Skills</h2>
+        <div class="column">
+            <table style="width:50%">
+                <tr>
+                  <th>Num</th>
+                  <th>Skill</th>
+                  <th>Experience</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Problem Solving</td>
+                  <td>Awards in Codeforces</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Teamwork</td>
+                  <td>I have been in many Collage team Projects</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Presentation</td>
+                    <td>I have been in many Collage presentations</td>
+                  </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <!--List of Services-->
+    <div class="row">
+        <div class="column">
+            <h2>Services</h2>
+        <div class="column">
+            <ol>
+                <li >marketing</li>
+                <li >Graphic design</li>
+                <li >Computer Engineering
+                    <ul>
+                        <li>OOP</li>
+                        <li>design Patterns</li>
+                        <li>Java, C++, Python</li>
+                    </ul>
+                </li>
+             </ol>
+        </div>
+    </div>
+</body>
+</html>
